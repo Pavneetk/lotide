@@ -22,20 +22,13 @@ const assertArraysEqual = function(third, forth) {
 
 const without = function(array,remove) {
   let array1 = array.slice();
-  //console.log(array1)
-  
   for (let j = 0; j < remove.length; j++) {
-  for (let i = 0; i < array1.length; i++) {
-   // console.log(array1[i]);
-    //console.log(remove[j]);
-    
-    if (array1[i] === remove[j]) {
-      array1.splice(i,1);
-      
+    for (let i = 0; i < array1.length; i++) {
+      if (array1[i] === remove[j]) {
+        array1.splice(i,1);
+      }
     }
   }
-}
-//console.log(array1);
   return array1;
 };
 
