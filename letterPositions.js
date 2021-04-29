@@ -1,12 +1,12 @@
 const eqArrays = function(first, second) {
   if (first.length === second.length) {
     for (let i = 0; i < first.length; i++) {
-      if (first[i] !== second[i]) {     
+      if (first[i] !== second[i]) {
         return false;
       }
-    } 
+    }
     return true;
-  } else { 
+  } else {
     return false;
   }
 };
@@ -28,11 +28,11 @@ const letterPositions = function(sentence) {
     if (element !== ' ') {
       if (!results[element]) {
         results[element] = [];
-      } 
-        results[element].push(index);
+      }
+      results[element].push(index);
       
     }
-   index++;
+    index++;
   }
   return results;
 };
