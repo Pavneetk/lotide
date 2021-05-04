@@ -1,0 +1,26 @@
+{
+  "name": "@pkang2/lotide",
+  "version": "1.0.1",
+  "description": "",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pavneetk/lotide.git"
+  },
+  "author": "Pavneet K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pavneetk/lotide/issues"
+  },
+  "homepage": "https://github.com/Pavneetk/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  }
+}
